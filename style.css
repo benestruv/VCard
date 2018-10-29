@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'Roboto-Thin';
+    src: url(assets/fonts/Roboto-Thin.ttf);
+}
+
+body {
+    background-image: url('assets/images/fond.jpg');
+    background-color: #232c33;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9em;
+}
+
+.page {
+    width: 960px;
+    margin: 0 auto;
+}
+
+span {
+    text-transform: uppercase;
+}
+
+/*Entête*/
+.nom {
+    margin-top: 50px;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+h2, li {
+    font-family: 'Roboto-Thin';
+}
+
+h2 {
+    font-size: 1.1em;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.poste {
+    text-align: left;
+}
+
+/*VCARD*/
+.vcard {
+    display: grid;
+    grid-template-columns: 620px 310px;
+    grid-row-gap: 3em;
+    grid-column-gap: 15px;
+    height: 100%;
+    width: 960px;
+    margin-bottom: 50px;
+}
+
+/* A PROPOS */
+.apropos h2 {
+    margin-top: 50px;
+}
+.apropos {
+    display:grid;
+    grid-template-columns: 250px 350px;
+    grid-auto-rows: 200px;
+    grid-row-gap: 15px;
+}
+
+.presentation {
+    text-align: justify;
+}
+
+hr {width: 150px;}
+
+/*FICHE Photo et coordonnées*/
+img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.portfolio img, .info img {
+    border: 1px solid #728696;
+}
+
+.info h2 {
+    margin-top: 20px;
+}
+
+.apropos, .info {
+    padding: 0 40px;
+    background-image:linear-gradient(rgba(54,63,63,0.9),rgba(49,56,66,0.9));
+    box-shadow: 5px 10px 15px #353e46;
+    border-radius: 20px;
+}
+
+ul img {
+    height: 24px;
+    width: 24px;
+    float: left;
+    margin-left: 35px;
+}
+
+
+p {
+    line-height: 1.5em;
+}
+
+li {
+    font-weight: bold;
+    line-height: 2em;
+}
+
+.sociaux li {
+    list-style-type: none;
+}
+
+/*PICTOGRAMMES*/
+
+#coord {
+    display:grid;
+    grid-template-columns: 30px 250px;
+    align-items: center;
+}
+#datepicto {
+    background-image: url('assets/images/baby.png');
+    height: 24px;
+    width: 24px;
+}
+
+#adressepicto {
+    background-image: url('assets/images/home.png');
+    height: 24px;
+    width: 24px;
+}
+
+#phonepicto {
+    background-image: url('assets/images/phone.png');
+    height: 24px;
+    width: 24px;
+}
+
+#mailpicto {
+    background-image: url('assets/images/mail.png');
+    height: 24px;
+    width: 24px;
+}
+
+#carpicto {
+    background-image: url('assets/images/car.png');
+    height: 24px;
+    width: 24px;
+}
